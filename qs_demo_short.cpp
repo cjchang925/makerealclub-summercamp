@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void quickSort(int books[ARRAY_LENGTH], int lowerBound, int upperBound);
+void quickSort(int books[ARRAY_LENGTH], int lowerBound, int upperBound);   // 排序五本書
 
 void swap(int& a, int& b) {   // 交換a和b的值
     int t = a;
@@ -20,3 +20,6 @@ int main() {
     }
     return 0;
 }
+
+
+
