@@ -4,7 +4,7 @@ void swap(int& a, int& b);
 
 void quickSort(int books[ARRAY_LENGTH], int lowerBound,
                int upperBound) {
-  if (lowerBound == upperBound) {  // 代表只有一本書，不需要排序
+  if (lowerBound >= upperBound) {  // 代表只有1或0本書，不需要排序
     return;                        // 結束遞迴
   }
   int toBeComparedNumber = books[upperBound];
